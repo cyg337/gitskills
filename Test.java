@@ -12,7 +12,7 @@ public class Test {
         System.out.println("2. 解密密码");
         System.out.println("3. 判断密码强度");
         System.out.println("4. 生成密码");
-        int choice = scanner.nextInt();
+        int choice = scanner.nextInt();//23445555556
         scanner.nextLine(); // 消耗掉换行符,防止直接跳过了下面的输入环节
         //因为nextLine读取的是 nextInt 后面的换行，nextInt读取到了空白字符就停止了，导致nextline读取的是上一行数字后面的enter。
 
